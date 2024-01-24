@@ -1,0 +1,37 @@
+
+.container{
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: auto 35%; 
+}
+#image{
+  background-color: #a3b18a;
+}
+img{
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  position: relative;
+  top: 40px;
+}
+.login{
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: #dad7cd; */
+ border-bottom: 0.2px solid black;
+}
+#info{
+  display: flex;
+  justify-content: space-evenly;
+}
+.details{
+  font-size: 10px;
+}
